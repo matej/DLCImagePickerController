@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |sp|
     sp.source_files = 'Classes'
     sp.resources = "Images/{UI,Overlays}/*.png"
-    sp.dependency 'GPUImage', '~> 0.1.2'
+    sp.dependency 'GPUImage', '~> 0.1.3'
   end
   
   s.subspec 'Filters' do |sp|
